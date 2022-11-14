@@ -38,7 +38,7 @@ function Places() {
                 </div>
             </div>
 
-            <div className='flex flex-wrap items-center mb-5'>
+            <div className='flex justify-center flex-wrap items-center mb-5'>
                 <Card img={place1} />
                 <Card img={place2} />
                 <Card img={place3} />

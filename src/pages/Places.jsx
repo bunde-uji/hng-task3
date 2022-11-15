@@ -22,15 +22,15 @@ import Card from '../components/Card';
 function Places() {
     return (  
         <div className="p-5 md:py-10 md:px-12 font-['Red_Rose']">
-            <div className='flex items-center flex-wrap w-[92%] my-8 mx-2'>
-                <span className="text-base md:text-lg mr-3">Restaurant</span>
-                <span className="text-base md:text-lg mr-3">Cottage</span>
-                <span className="text-base md:text-lg mr-3">Castle</span>
-                <span className="text-base md:text-lg mr-3">fantasy city</span>
-                <span className="text-base md:text-lg mr-3">beach</span>
-                <span className="text-base md:text-lg mr-3">Carbins</span>
-                <span className="text-base md:text-lg mr-3">Off-Grid</span>
-                <span className="text-base md:text-lg mr-6">Farm</span>
+            <div className='flex items-center flex-wrap w-[92%] my-8 mx-2 md:mx-8'>
+                <span className="text-base md:text-lg mr-8">Restaurant</span>
+                <span className="text-base md:text-lg mr-8">Cottage</span>
+                <span className="text-base md:text-lg mr-8">Castle</span>
+                <span className="text-base md:text-lg mr-8">fantasy city</span>
+                <span className="text-base md:text-lg mr-8">beach</span>
+                <span className="text-base md:text-lg mr-8">Carbins</span>
+                <span className="text-base md:text-lg mr-8">Off-Grid</span>
+                <span className="text-base md:text-lg mr-14">Farm</span>
 
                 <div className='flex border rounded-md px-3 py-2 cursor-pointer'>
                     <span className='mr-8'>Location</span>

@@ -36,7 +36,7 @@ function Navbar() {
     window.addEventListener('scroll', handleScroll);
 
     return (  
-        <div className={`flex w-full justify-between items-center h-[13vh] px-5 md:px-16 font-['Red_Rose'] sticky top-0 left-0 bg-white ${scrolled ? 'border-b' : ''}`}>
+        <div className={`flex w-full justify-between items-center h-[13vh] px-5 md:px-20 font-['Red_Rose'] sticky top-0 left-0 bg-white ${scrolled ? 'border-b' : ''}`}>
             <Link to='/'><img src={logo} alt="" /></Link>
 
             <div className="hidden md:flex items-center">
@@ -52,7 +52,7 @@ function Navbar() {
             <i className={`fa-solid ${menuActive ? 'fa-x' : 'fa-bars-staggered'}`}></i>    
             </button> 
 
-            {menuActive && <Menu onclick={openModal} menuActive={menuActive}  />}
+            {menuActive && <Menu onclick={openModal} menuActive={menuActive} setmenuActive={setMenuActive} />}
 
             {modalActive &&
             <>

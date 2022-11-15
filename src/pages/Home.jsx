@@ -19,7 +19,7 @@ import nft from '../assets/home/nft.svg';
 function Home() {
     return (  
         <div className="font-['Red_Rose']">
-            <div className='flex flex-col md:flex-row items-center px-9 py-20'>
+            <div className='flex flex-col md:flex-row items-center px-6 md:px-16 py-20'>
                 <div className='flex-grow mr-0 md:mr-12 mb-10'>
                     <p className='text-[40px] md:text-[50px] font-bold mb-7'>Rent a <span className='text-[#A02279]'>Place</span> away from <span className='text-[#A02279]'>Home</span> in the <span className='text-[#A02279]'>Metaverse</span></p>
 
@@ -34,15 +34,15 @@ function Home() {
                 <img src={hero} alt="" />
             </div>
 
-            <div className='h-[50px] md:h-[70px] bg-[#A02279] flex justify-between w-full px-2'>
+            <div className='h-[50px] md:h-[70px] bg-[#A02279] flex justify-between w-full px-2 md:px-16'>
                 <img src={mb} alt="" className='w-[30%] md:w-[20%] lg:w-[17%]' />
                 <img src={metamask} alt="" className='w-[30%] md:w-[20%] lg:w-[17%]' />
                 <img src={os} alt="" className='w-[30%] md:w-[20%] lg:w-[17%]' />
             </div>
 
-            <div className='flex flex-col items-center py-10 px-5'>
+            <div className='flex flex-col items-center py-10 px-5 md:px-16'>
                 <h2 className='text-3xl sm:text-4xl font-bold mb-6'>Inspiration for your next adventure</h2>
-                <div className='flex flex-wrap justify-center mb-10'>
+                <div className='flex flex-wrap justify-between mb-10'>
                     <Card img={card1} />
                     <Card img={card2} />
                     <Card img={card3} />

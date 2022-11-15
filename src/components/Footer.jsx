@@ -10,7 +10,7 @@ import copyright from '../assets/copyright.png';
 function Footer() {
     return (  
         <div className="bg-[#1D1D1E] font-['Red_Rose'] px-5 py-12 text-[#F7F7F7] flex flex-col md:flex-row">
-            <div className='md:ml-20 mr-[11%] text-[14px] mb-8'>
+            <div className='md:ml-20 mr-[11%] text-[14px] mb-8 md:mb-0'>
                 <img src={logo2} alt="" className='mb-7 md:mb-20' />
                 <div className='flex md:mb-14 mb-3'>
                     <img src={facebook} alt="" className='mr-9 cursor-pointer ' />

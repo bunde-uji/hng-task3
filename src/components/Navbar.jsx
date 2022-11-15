@@ -48,8 +48,8 @@ function Navbar() {
 
             <button className="bg-[#A02279] rounded-lg h-[45px] w-[150px] text-white cursor-pointer hidden md:flex items-center justify-center" onClick={openModal}>Connect wallet</button>
 
-            <button className="cursor-pointer flex md:hidden" onClick={toggleMenu}>
-            <i className={`fa-solid ${menuActive ? 'fa-x' : 'fa-bars-staggered'}`}></i>    
+            <button className="cursor-pointer flex md:hidden border-none" onClick={toggleMenu}>
+            <i className={`fa-solid ${menuActive ? 'fa-x' : 'fa-bars-staggered'} text-lg`}></i>    
             </button> 
 
             {menuActive && <Menu onclick={openModal} menuActive={menuActive} setmenuActive={setMenuActive} />}

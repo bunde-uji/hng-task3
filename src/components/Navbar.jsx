@@ -40,13 +40,13 @@ function Navbar() {
             <Link to='/'><img src={logo} alt="" /></Link>
 
             <div className="hidden md:flex items-center">
-                <Link to="/" className="mx-4 font-normal">Home</Link>
-                <Link to="/place-to-stay" className="mx-4">Place to stay</Link>
-                <Link to="/" className="mx-4">NFTs</Link>
-                <Link to="/" className="mx-4">Community</Link>
+                <Link to="/" className="mx-4 font-normal text-xl">Home</Link>
+                <Link to="/place-to-stay" className="mx-4 text-xl">Place to stay</Link>
+                <Link to="/" className="mx-4 text-xl">NFTs</Link>
+                <Link to="/" className="mx-4 text-xl">Community</Link>
             </div>
 
-            <button className="bg-[#A02279] rounded-lg h-[43px] w-[140px] text-white cursor-pointer hidden md:flex items-center justify-center" onClick={openModal}>Connect wallet</button>
+            <button className="bg-[#A02279] rounded-lg h-[45px] w-[150px] text-white cursor-pointer hidden md:flex items-center justify-center" onClick={openModal}>Connect wallet</button>
 
             <button className="cursor-pointer flex md:hidden" onClick={toggleMenu}>
             <i className={`fa-solid ${menuActive ? 'fa-x' : 'fa-bars-staggered'}`}></i>    

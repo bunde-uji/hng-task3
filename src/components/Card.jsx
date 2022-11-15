@@ -4,7 +4,7 @@ import star from '../assets/star.png';
 
 function Card(props) {
     return (  
-        <div className='h-[372px] w-[292px] border border-[#D7D7D7] rounded-2xl p-3 text-[12px] my-5 mx-[14px]'>
+        <div className='h-[360px] w-[275px] border border-[#D7D7D7] rounded-2xl p-3 text-[12px] my-5 mx-[13px]'>
             <img src={props.img} alt="" className='mb-2' />
             <div className="flex justify-between mb-2">
                 <span>Desert king</span>

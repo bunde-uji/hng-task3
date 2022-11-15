@@ -40,9 +40,9 @@ function Home() {
                 <img src={os} alt="" className='w-[30%] md:w-[20%] lg:w-[17%]' />
             </div>
 
-            <div className='flex flex-col items-center py-10 px-5 md:px-16'>
+            <div className='flex flex-col items-center py-10 px-5 md:px-12 w-full'>
                 <h2 className='text-3xl sm:text-4xl font-bold mb-6'>Inspiration for your next adventure</h2>
-                <div className='flex flex-wrap justify-between mb-10'>
+                <div className='flex flex-wrap justify-center mb-10'>
                     <Card img={card1} />
                     <Card img={card2} />
                     <Card img={card3} />

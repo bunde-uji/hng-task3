@@ -21,7 +21,7 @@ import Card from '../components/Card';
 
 function Places() {
     return (  
-        <div className="p-5 md:py-10 md:px-20 font-['Red_Rose']">
+        <div className="p-5 md:py-10 md:px-12 font-['Red_Rose']">
             <div className='flex items-center flex-wrap w-[92%] my-8 mx-2'>
                 <span className="text-base md:text-lg mr-3">Restaurant</span>
                 <span className="text-base md:text-lg mr-3">Cottage</span>
@@ -38,7 +38,7 @@ function Places() {
                 </div>
             </div>
 
-            <div className='flex justify-between flex-wrap items-center mb-5'>
+            <div className='flex justify-center w-full flex-wrap items-center mb-5'>
                 <Card img={place1} />
                 <Card img={place2} />
                 <Card img={place3} />
